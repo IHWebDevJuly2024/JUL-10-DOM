@@ -1,0 +1,21 @@
+#link {
+  width: calc(576px / 6);
+  height: calc(791px / 6);
+  background-image: url("https://i.pinimg.com/originals/f3/e9/59/f3e959f026eaebc40fe16938a9828e33.gif");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+/*   #link{
+      width: 30px;
+      height: 30px;
+      border: 2px solid gray;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-50%) translateY(-50%);
+      backdrop-filter: sepia(90%);
+} */
