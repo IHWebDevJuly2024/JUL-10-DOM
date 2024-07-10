@@ -40,12 +40,16 @@ console.log(playerElement);
 
 document.body.appendChild(playerElement);
 
+// this event listener is tracking all the mouse movements
 document.addEventListener("mousemove", (event) => {
   console.log(event);
+  // we can store the coordinates of the mouse
   const positionX = event.clientX;
   const positionY = event.clientY;
 
+  // and we are going to add a bit of delay to the movement
   setTimeout(() => {
+    // then we are going to change the position of the playerElement based on the mouse position
     playerElement.style.top = `${positionY}px`;
     playerElement.style.left = `${positionX}px`;
   }, 300);
